@@ -1,0 +1,52 @@
+@media screen and (max-width: 980px){
+    #oneGreenSquar{
+        background-color: yellow;
+        width: 20%;
+        height: 20%;
+        float: left;
+    }
+    
+    #oneYellowSquar{
+        background-color: green;
+        width: 20%;
+        height: 20%;        
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        top: 10%;
+        
+    }
+    #tooGreenSquar{
+        background-color: red;
+        width: 20%;
+        height: 20%;
+        top: 50%;
+        left: 10%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+    }
+    
+    #tooYellowSquar{
+        background-color: green;        
+        width: 20%;
+        height: 20%;
+        float: left;
+    }
+    #tooRedSquar{
+        background-color: yellow;
+        width: 20%;
+        height: 20%;        
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+    }
+    #circle{
+        background-color: yellow;
+        width: 20%;
+        height: 20%;
+        float: left;
+    }
+
+
+}

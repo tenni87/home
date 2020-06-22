@@ -1,0 +1,59 @@
+
+#oneGreenSquar{
+    background-color: green;
+    width: 600px;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+#oneYellowSquar{
+    background-color: yellow;
+    width: 200px;
+    height: 100px;
+    padding: 0;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    bottom: 0;    
+    position: absolute;
+}
+#tooGreenSquar{
+    background-color: green;
+    width: 200px;
+    height: 100px;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#tooYellowSquar{
+    background-color: yellow;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto 0 auto;
+    padding: 0;
+}
+#tooRedSquar{
+    background-color: red;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+#circle{
+    background-color: green;
+    width: 400px;
+    height: 400px;
+    margin: 0 0 0 auto;
+    border-radius: 50%;
+    position: relative;
+}
+
+
