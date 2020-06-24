@@ -16,7 +16,7 @@
         top: 10%;
         
     }
-    #tooGreenSquar{
+    .tooSquar-midle{
         background-color: red;
         width: 20%;
         height: 20%;
@@ -26,13 +26,13 @@
         transform: translate(-50%, -50%)
     }
     
-    #tooYellowSquar{
+    .tooSquar-outer{
         background-color: green;        
         width: 20%;
         height: 20%;
         float: left;
     }
-    #tooRedSquar{
+    .tooSquar-inner{
         background-color: yellow;
         width: 20%;
         height: 20%;        
@@ -41,7 +41,7 @@
         margin-right: -50%;
         transform: translate(-50%, -50%);
     }
-    #circle{
+    .circle{
         background-color: yellow;
         width: 20%;
         height: 20%;
