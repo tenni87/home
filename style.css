@@ -1,5 +1,5 @@
 
-#oneGreenSquar{
+.oneSquare-outer{
     background-color: green;
     width: 600px;
     height: 400px;
@@ -8,7 +8,7 @@
     position: relative;
 }
 
-#oneYellowSquar{
+.oneSquare-inner{
     background-color: yellow;
     width: 200px;
     height: 100px;
@@ -19,7 +19,7 @@
     bottom: 0;    
     position: absolute;
 }
-#tooGreenSquar{
+.tooSquar-midle{
     background-color: green;
     width: 200px;
     height: 100px;
@@ -29,7 +29,7 @@
     bottom: 0;
 }
 
-#tooYellowSquar{
+.tooSquar-outer{
     background-color: yellow;
     position: relative;
     width: 600px;
@@ -37,7 +37,7 @@
     margin: 0 auto 0 auto;
     padding: 0;
 }
-#tooRedSquar{
+.tooSquar-inner{
     background-color: red;
     width: 100px;
     height: 50px;
@@ -47,7 +47,7 @@
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
-#circle{
+.circle{
     background-color: green;
     width: 400px;
     height: 400px;

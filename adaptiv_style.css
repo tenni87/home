@@ -1,12 +1,12 @@
 @media screen and (max-width: 980px){
-    #oneGreenSquar{
+    .oneSquare-outer{
         background-color: yellow;
         width: 20%;
         height: 20%;
         float: left;
     }
     
-    #oneYellowSquar{
+    .oneSquare-inner{
         background-color: green;
         width: 20%;
         height: 20%;        
@@ -49,4 +49,41 @@
     }
 
 
+}
+@media screen and (max-width: 480px) {
+    .oneSquare-outer{
+        width: 10%;
+        height: 10%;
+        float: none;
+        
+    }
+    
+    .oneSquare-inner{
+        width: 10%;
+        height: 10%;      
+       
+        
+    }
+    .tooSquar-midle{
+        width: 10%;
+        height: 10%;
+        
+    }
+    
+    .tooSquar-outer{
+        position: relative;
+        width: 10%;
+        height: 10%;
+        float: none;
+    }
+    .tooSquar-inner{
+        width: 10%;
+        height: 10%;
+        
+    }
+    .circle{
+        width: 10%;
+        height: 10%;
+        float: none;
+    }
 }
